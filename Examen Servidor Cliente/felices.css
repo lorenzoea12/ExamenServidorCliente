@@ -22,11 +22,22 @@ justify-content: center;
 
 }
 
-img {
+#añonuevo {
+  position:absolute;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  visibility: hidden;
+}
+
+#navidad {
+ visibility: visible;
   width: 100vw;
   height: 100vh;
   background-size: cover;
 }
+
+
 
 #saludos {
   
@@ -49,6 +60,10 @@ img {
   
 }
 
+
+audio{
+  display:none;
+}
 
 @media(orientation:landscape) {
   .principal {

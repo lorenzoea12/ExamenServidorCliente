@@ -1,4 +1,9 @@
 
+  var musica = document.getElementById("musica");
+
+
+
+
 const myTimeout = setTimeout(mostrarSaludo, 3000);
 
 function mostrarSaludo() {
@@ -13,16 +18,12 @@ body.addEventListener("click", ocultarSaludo);
 
 function ocultarSaludo() {
     document.getElementById("saludos").style.visibility="visible";
+    document.getElementById("añonuevo").style.visibility="visible";
+    document.getElementById("navidad").style.visibility="hidden";
+    musica.play();
+
   }
 
 
-  
 
-  var sonido  = new Audio();
-sonido.src = "./campana.mp3";  
 
-image.addEventListener("click", function () {
-  image.style.display = "none";
-  texto.style.display = "block";
-  sonido.play = "autoplay";
-});

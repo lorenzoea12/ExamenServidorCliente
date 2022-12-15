@@ -17,3 +17,12 @@ function ocultarSaludo() {
 
 
   
+
+  var sonido  = new Audio();
+sonido.src = "./campana.mp3";  
+
+image.addEventListener("click", function () {
+  image.style.display = "none";
+  texto.style.display = "block";
+  sonido.play = "autoplay";
+});

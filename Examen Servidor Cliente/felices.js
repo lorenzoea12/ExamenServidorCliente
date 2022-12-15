@@ -14,3 +14,6 @@ body.addEventListener("click", ocultarSaludo);
 function ocultarSaludo() {
     document.getElementById("saludos").style.visibility="visible";
   }
+
+
+  

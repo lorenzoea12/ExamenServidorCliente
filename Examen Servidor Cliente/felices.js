@@ -26,4 +26,23 @@ function ocultarSaludo() {
 
 
 
+const crearNieve = () => {
+
+  let copo = document.createElement("i");
+
+  let x = innerWidth * Math.random();
+
+  let size = Math.random() * 2;
+  //
+  copo.style.left = x + '%';
+
+  copo.style.width = size + '%'
+  copo.style.height = size + '%'
+
+  fondo.appendChild(copo);
+};
+
+
+
+setInterval(crearNieve, 20)
 

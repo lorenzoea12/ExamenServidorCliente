@@ -20,6 +20,8 @@ function ocultarSaludo() {
     document.getElementById("saludos").style.visibility="visible";
     document.getElementById("añonuevo").style.visibility="visible";
     document.getElementById("navidad").style.visibility="hidden";
+    document.getElementById("papanoel").style.transform = "scaleX(-1)";
+    document.getElementById("reyesmagos").style.transform = "scaleX(-1)";
     musica.play();
 
   }

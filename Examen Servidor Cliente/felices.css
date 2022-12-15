@@ -44,6 +44,23 @@ justify-content: center;
     height: 100vh;
 }
 
+#papanoel{
+  height: 8vh;
+  width: 8vw;
+  position: absolute;
+  right: 20px;
+
+}
+#reyesmagos{
+  height: 8vh;
+  width: 8vw;
+  position: absolute;
+  left: 20px;
+
+}
+
+
+
 
 i{
     position: absolute;

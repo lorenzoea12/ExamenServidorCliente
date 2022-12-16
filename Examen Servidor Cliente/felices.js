@@ -27,6 +27,7 @@ body.addEventListener("click", ocultarSaludo);
 // que obtengo al hacer click es que realizan la funcion que le he dado desde css
 function ocultarSaludo() {
   document.getElementById("saludos").style.visibility="visible";
+  //La foto al clicar se desplaza hacia el lado contrario del origen de la foto 
   document.getElementById("añonuevo").style.visibility="visible";
   document.getElementById("navidad").style.visibility="hidden";
   document.getElementById("papanoel").style.transform = "scaleX(-1)";

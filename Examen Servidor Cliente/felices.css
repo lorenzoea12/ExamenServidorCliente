@@ -45,19 +45,39 @@ justify-content: center;
 }
 
 #papanoel{
-  height: 8vh;
-  width: 8vw;
+  height: 10vh;
+  width: 10vw;
   position: absolute;
   right: 20px;
 
 }
 #reyesmagos{
-  height: 8vh;
-  width: 8vw;
+  height: 10vh;
+  width: 10vw;
   position: absolute;
   left: 20px;
 
 }
+
+#arbol{
+  position:absolute;
+  height: 10vh;
+  width: 10vw;
+  top: 90%;
+  left: 20px;
+
+
+}
+
+#belen{
+  position:absolute;
+  height: 10vh;
+  width: 10vw;
+  top: 90%;
+  right: 20px;
+}
+
+
 
 
 
